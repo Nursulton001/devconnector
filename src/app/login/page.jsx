@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import React from "react";
 
 function Login() {
-  //   console.log(baseUrl, "tttttttttttttttttttt");
   const route = useRouter();
 
   const onSubmits = async (e) => {
